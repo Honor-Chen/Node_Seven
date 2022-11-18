@@ -1,0 +1,5 @@
+message column {
+	required string name = 1;
+	required float age = 2;
+	required float price = 3;
+}
