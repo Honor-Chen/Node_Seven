@@ -27,10 +27,10 @@ const buf = schema.column.encode({
 	age: 29,
 	price: 999.99
 })
-console.log(buf);
+console.log("🌐 ~ buf:", buf)
 
 const bufDe = schema.column.decode(buf)
-// console.log(bufDe);
+console.log("🌐 ~ bufDe:", bufDe)
 
 
 // 理解 buf.slice(index) 方法
